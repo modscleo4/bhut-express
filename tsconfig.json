@@ -1,0 +1,30 @@
+{
+    "compilerOptions": {
+        "incremental": true,
+        "moduleResolution": "NodeNext",
+        "module": "NodeNext",
+        "target": "ESNext",
+        "sourceMap": true,
+        "outDir": "./dist",
+        "strict": true,
+        "alwaysStrict": true,
+        "pretty": true,
+        "experimentalDecorators": true,
+        "esModuleInterop": true,
+        "noImplicitReturns": true,
+        "noImplicitAny": true,
+        "baseUrl": ".",
+        "skipLibCheck": true,
+        "noImplicitOverride": true,
+        "noImplicitThis": true,
+        "strictBindCallApply": true,
+        "strictNullChecks": true
+    },
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "node_modules",
+        "**/*.spec.ts"
+    ]
+}
